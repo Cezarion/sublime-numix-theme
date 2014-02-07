@@ -6,7 +6,7 @@
   {
     "class": "tabset_control",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.inner_margin": [10, 0],
     "layer0.opacity": 1.0,
     "layer1.opacity": 0.0,
@@ -60,7 +60,7 @@
   // Inactive Tab
   {
     "class": "tab_control",
-    "layer0.tint": [45, 45, 45]
+    "layer0.tint": [40, 40, 40]
   },
   {
     "class": "tab_label",
@@ -74,7 +74,8 @@
   {
     "class": "tab_control",
     "attributes": ["selected"],
-    "layer0.tint": [214, 73, 55]
+    "layer0.tint": [51, 51, 51],
+    //"layer0.tint": [214, 73, 55]
   },
   {
     "class": "tab_label",
@@ -161,7 +162,7 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "layer0.texture": "Theme - Numix/assets/file-dirty.png",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0
   },
   // Tab dirty button hover
@@ -178,7 +179,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     "attributes": ["hover"],
     "layer0.texture": "Theme - Numix/assets/close.png",
-    "layer0.tint": [45, 45, 45, 255],
+    "layer0.tint": [40, 40, 40, 255],
     "layer0.opacity": 1.0
   },
   // {
@@ -260,7 +261,7 @@
     "class": "scroll_bar_control",
     "layer0.texture": "",
     "layer0.opacity": 1.0,
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.inner_margin": [0, 0],
     "blur": false
   },
@@ -269,7 +270,7 @@
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [6, 0],
     "blur": false
@@ -278,7 +279,7 @@
   {
     "class": "scroll_corner_control",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 0]
   },
@@ -464,7 +465,7 @@
   {
     "class": "status_bar",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [2, 2],
     "content_margin": [14, 4, 4, 4]
@@ -482,7 +483,7 @@
   {
     "class": "sidebar_container",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "layer0.draw_center": false,
     "layer0.inner_margin": [0, 0, 0, 0],
@@ -496,7 +497,7 @@
     "indent_offset": 20,
     "indent_top_level": false,
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "dark_content": false
   },
@@ -544,7 +545,7 @@
   {
     "class": "tree_row",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [1,1]
   },
@@ -761,7 +762,7 @@
     // Default button state
     // "color": [0,0,0],
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [6, 6],
     // Pressed button setup
@@ -811,7 +812,7 @@
   {
     "class": "panel_control",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.inner_margin": [2, 2, 2, 5],
     "layer0.opacity": 1.0
   },
@@ -819,11 +820,11 @@
   {
     "class": "overlay_control",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.inner_margin": [30, 30, 30, 30], // 9grid for the background
     "layer0.opacity": 1.0,
     "layer1.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer1.inner_margin": [20, 40, 20, 20],
     "layer1.opacity": 1.0,
     "content_margin": [0, 0, 0, 0] // content margin
@@ -842,13 +843,13 @@
   {
     "class": "quick_panel",
     "row_padding": [5, 2],
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0
   },
   {
     "class": "quick_panel_row",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0
   },
@@ -885,7 +886,7 @@
   {
     "class": "mini_quick_panel_row",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0
   },
@@ -940,7 +941,7 @@
   {
     "class": "icon_button_control",
     "layer0.texture": "",
-    "layer0.tint": [45, 45, 45],
+    "layer0.tint": [40, 40, 40],
     "layer0.opacity": 1.0,
     "layer1.opacity": 0.0,
     "layer2.opacity": 0.0,
